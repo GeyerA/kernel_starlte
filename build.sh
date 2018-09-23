@@ -6,10 +6,10 @@
 
 # Set Variables
 export RDIR=$(pwd)
-export KERNELNAME=TGPKernel
+export KERNELNAME=GeyerA
 export VERSION_NUMBER=$(<build/version)
 export ARCH=arm64
-export BUILD_CROSS_COMPILE=~/android/toolchains/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export BUILD_CROSS_COMPILE=/media/Lollipop/Oreo/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-gcc-6.4.1/bin/aarch64-linux-gnu-
 BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 WORKDIR=$RDIR/.work
 ZIPDIR=$RDIR/.work_zip
