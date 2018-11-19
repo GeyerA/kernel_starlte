@@ -1,10 +1,10 @@
 #!/bin/bash
 # GrifoDev script
 
-export MODEL=star2lte
+export MODEL=starlte
 export VARIANT=eur
 export ARCH=arm64
-export BUILD_CROSS_COMPILE=../Toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export BUILD_CROSS_COMPILE=/media/Pie/toolchains/aarch64-linux-gnu-6.5.0/bin/aarch64-linux-gnu-
 export BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 
 RDIR=$(pwd)

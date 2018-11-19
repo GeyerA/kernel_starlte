@@ -26,7 +26,7 @@ mount /vendor
 ui_print " - mounting data partition"
 mount /data
 
-ui_print " - Installing FlashKernel"
+ui_print " - Installing Calo's Liscio"
 
 if grep -q G965 BLmodel; then
 	cat star2lte-eur.img > /dev/block/platform/11120000.ufs/by-name/BOOT
